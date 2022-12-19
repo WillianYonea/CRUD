@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body {
+    background-color: #295F70;
+    color: #FFF;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+main {
+    background-color: #3B459E;
+    max-width: 800px;
+    margin: 3rem auto;
+    padding: 30px 0;
+}
+
+.container {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+nav > ul {
+    display: flex;
+    justify-content: center;
+    color: #FFF;
+    padding: 10px;
+}
+
+ul > li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 2px;
+}
+
+.nav-icons {
+    width: 20px;
+    margin-left: 5px;
+    filter: invert(100%) sepia(22%) saturate(954%) hue-rotate(243deg) brightness(111%) contrast(101%);
+}
+
+input {
+    background-color: #3B459E;
+    color: #FFF;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom: 1px solid white;
+    width: 400px;
+    padding: 10px 0;
+    margin: 5px auto;
+    outline: none;
+}
+
+::placeholder {
+    color: #FFF;
+}
+
+#create {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid #13FFAA;
+}
+
+.buttons {
+    margin: 0 auto;
+}
+
+.buttons button {
+    /* display: flex; */
+    width: 200px;
+    margin: 2rem auto;
+    padding: 7px;
+    /* justify-content: center; */
+    border-radius: 8px;
+    background-color: #3B459E;
+    border: 1px solid #FFF;
+    color: #FFF;
+}
+
+.buttons button:hover{
+    color: #13FFAA;
+    border-color: #13FFAA;
+}
+
+
+/*
+    Table
+ */
+
+ table {
+    margin: 15px auto;
+ }
+
+ table thead {
+    color: #13FFAA;
+    text-align: center;
+    font-weight: bold;
+ }
+
+ table td {
+    padding: 10px;
+ }
+
+ .edit{
+    background-color: #FFF;
+    -webkit-mask-image: url('../img/pen-solid.svg');
+    mask-image: url('../img/pen-solid.svg');
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+    border: 0;
+    margin: 0;
+ }
+
+ .edit:hover {
+    background-color: #13FFAA;
+ }
+
+ .delete{
+    background-color: #FFF;
+    -webkit-mask-image: url('../img/trash-solid.svg');
+    mask-image: url('../img/trash-solid.svg');
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 22px;
+    border: 0;
+    margin: 0;
+ }
+
+ .delete:hover {
+    background-color: #13FFAA;
+ }
+
+ /* .table-icons{
+    pointer-events: none;
+ }
+
+
+ .table-icons:hover {
+    filter: invert(92%) sepia(73%) saturate(3459%) hue-rotate(73deg) brightness(114%) contrast(101%);
+ } */

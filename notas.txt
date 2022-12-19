@@ -1,0 +1,3 @@
+Este projeto foi desenvolvido utilizando HTML,CSS, JavaScript e utilizando o LocalStorage do navegador para armazenar dados.
+
+Em JavaScript foi possível aprimorar os conhecimentos sobre o DOM, Arrow Functions, um pouco sobre JSON para armazenar e pegar informações do LocalStorage do navegador, e entender melhor sobre Arrays.

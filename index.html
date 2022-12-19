@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="js/main.js" defer></script>
+    <title>CRUD</title>
+</head>
+<body>
+    <main>
+        <div class="container">
+            <nav>
+                <ul>
+                    <li id="create-title">Create<img src="img/file-circle-plus-solid.svg" class="nav-icons"></li>
+                    <li>Read<img src="img/book-open-solid.svg" class="nav-icons"></li>
+                    <li>Update<img src="img/rotate-right-solid.svg" class="nav-icons"></li>
+                    <li>Delete<img src="img/trash-solid.svg" class="nav-icons"></li>
+                </ul>
+            </nav>
+            <form id="create">
+                <input type="text" placeholder="Nome" id="name" class="field" data-index="new" required>
+                <input type="text" placeholder="Telefone" id="phone" class="field" required>
+                <input type="email" placeholder="Email" id="email" class="field" required>
+                <div class="buttons">
+                    <button id="save">Salvar</button>
+                    <button id="cancel">Cancelar</button>
+                </div>
+            </form>
+            <table id="tableClient">
+                <thead>
+                    <tr>
+                        <td>Nome</td>
+                        <td>Telefone</td>
+                        <td>Email</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Willian</td>
+                        <td>46145103</td>
+                        <td>willian@yahoo.com</td>
+                        <td><img src="img/pen-solid.svg" class="nav-icons table-icons"></td>
+                        <td><img src="img/trash-solid.svg" class="nav-icons table-icons"></td>
+                    </tr>
+                </tbody>
+             </table>
+        </div>
+    </main>
+</body>
+</html>
